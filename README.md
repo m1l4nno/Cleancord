@@ -94,7 +94,7 @@ Du kannst das Aussehen über die folgenden CSS-Variablen anpassen. Alle Variable
   /* DE: Hintergrundfixierung */
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
   /* DE: Sättigungsfilter */
-  --background-shading-percent: 100%;
+  --background-shading-percent: 10%;
   /* DE: Hintergrund-Schattierungsgrad */
 
   /* Fonts / DE: Schriftarten */
