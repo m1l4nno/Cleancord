@@ -63,9 +63,9 @@ Du kannst das Aussehen über die folgenden CSS-Variablen anpassen. Alle Variable
 
 
   /* Images / DE: Bilder */
-  --group-icon: url('https://i.postimg.cc/2yVntbLV/m1l4nno.jpg');
-  --home-icon: url('https://i.postimg.cc/2yVntbLV/m1l4nno.jpg');
-  --background-image: url('https://i.imgur.com/bC59zah.jpeg');
+  --group-icon: url('https://i.imgur.com/jUZFJSf.jpeg');       /* DE:Platzhalter EN:Placeholder */
+  --home-icon: url('https://i.imgur.com/jUZFJSf.jpeg');        /* DE:Platzhalter EN:Placeholder */
+  --background-image: url('https://i.imgur.com/bC59zah.jpeg'); /* DE:Platzhalter EN:Placeholder */
 
   --background-position: center;  /* DE: Hintergrundposition */
   --background-size: cover;       /* DE: Hintergrundgröße */
