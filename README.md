@@ -40,45 +40,69 @@ Du kannst das Aussehen über die folgenden CSS-Variablen anpassen. Alle Variable
  * @website https://m1l4nno.com
  */
 
- 
+
 @import url("https://m1l4nno.github.io/Cleancord/CleanCord.css");
 
 :root {
-  --btn-color: #14e90d; /* Button color (top-right) / DE: Farbe für die Rechts-oben-Buttons */
-  --btn-size: 40px;      /* Button size / DE: Größe der Buttons */
-  --speaking-border-color: #4acf56; /* Call border color / DE: Farbe bei aktivem Sprechen */
-  --main-color: #868585;  /* Main theme color / DE: Hauptfarbe */
-  --hover-color: #6b6969; /* Hover color / DE: Farbe beim Überfahren */
-  --success-color: #148552; /* Success color / DE: Erfolgsmeldungen */
-  --danger-color: #982929;  /* Danger color / DE: Fehler/Alarm */
-  --warning-color: #faa61a; /* Warning color / DE: Warnungen */
-  --mute-color: #ff4d4d;   /* Mute / DE: Stumm */
-  --mute-glow: #0c0c0c;    /* Mute glow / DE: Leuchteffekt bei stumm */
-  --info-color: #5865f2;    /* Info color / DE: Informationsfarbe */
-  --online-color: #43b581;  /* Online status / DE: Online */
-  --idle-color: #faa61a;    /* Idle status / DE: Abwesend */
-  --dnd-color: #982929;     /* Do Not Disturb / DE: Nicht stören */
-  --streaming-color: #593695; /* Streaming status / DE: Streaming */
-  --offline-color: #808080; /* Offline / DE: Offline */
+  --btn-color: #ffffff;
+  /* Button color (top-right) / DE: Farbe für die Rechts-oben-Buttons */
+  --btn-size: 40px;
+  /* Button size / DE: Größe der Buttons */
+  --speaking-border-color: #ffffff;
+  /* Call border color / DE: Farbe bei aktivem Sprechen */
+  --main-color: #868585;
+  /* Main theme color / DE: Hauptfarbe */
+  --hover-color: #6b6969;
+  /* Hover color / DE: Farbe beim Überfahren */
+  --success-color: #148552;
+  /* Success color / DE: Erfolgsmeldungen */
+  --danger-color: #982929;
+  /* Danger color / DE: Fehler/Alarm */
+  --warning-color: #faa61a;
+  /* Warning color / DE: Warnungen */
+  --mute-color: #ff4d4d;
+  /* Mute / DE: Stumm */
+  --mute-glow: #0c0c0c;
+  /* Mute glow / DE: Leuchteffekt bei stumm */
+  --info-color: #5865f2;
+  /* Info color / DE: Informationsfarbe */
+  --online-color: #43b581;
+  /* Online status / DE: Online */
+  --idle-color: #faa61a;
+  /* Idle status / DE: Abwesend */
+  --dnd-color: #982929;
+  /* Do Not Disturb / DE: Nicht stören */
+  --streaming-color: #593695;
+  /* Streaming status / DE: Streaming */
+  --offline-color: #808080;
+  /* Offline / DE: Offline */
 
 
   /* Images / DE: Bilder */
-  --group-icon: url('https://i.imgur.com/jUZFJSf.jpeg');       /* DE:Platzhalter EN:Placeholder */
-  --home-icon: url('https://i.imgur.com/jUZFJSf.jpeg');        /* DE:Platzhalter EN:Placeholder */
-  --background-image: url('https://i.imgur.com/bC59zah.jpeg'); /* DE:Platzhalter EN:Placeholder */
+  --group-icon: url('https://i.imgur.com/jUZFJSf.jpeg');
+  /* DE:Platzhalter EN:Placeholder */
+  --home-icon: url('https://i.imgur.com/jUZFJSf.jpeg');
+  /* DE:Platzhalter EN:Placeholder */
+  --background-image: url('https://i.imgur.com/bRaczTd.jpeg');
+  /* DE:Platzhalter EN:Placeholder */
 
-  --background-position: center;  /* DE: Hintergrundposition */
-  --background-size: cover;       /* DE: Hintergrundgröße */
-  --background-attachment: fixed; /* DE: Hintergrundfixierung */
-  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /* DE: Sättigungsfilter */
-  --background-shading-percent: 100%; /* DE: Hintergrund-Schattierungsgrad */
+  --background-position: center;
+  /* DE: Hintergrundposition */
+  --background-size: cover;
+  /* DE: Hintergrundgröße */
+  --background-attachment: fixed;
+  /* DE: Hintergrundfixierung */
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  /* DE: Sättigungsfilter */
+  --background-shading-percent: 100%;
+  /* DE: Hintergrund-Schattierungsgrad */
 
   /* Fonts / DE: Schriftarten */
   --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 
   /* Channel colors / DE: Kanal-Farben */
-  --channel-normal: var(--interactive-text-default); 
+  --channel-normal: var(--interactive-text-default);
   --channel-muted: var(--interactive-muted);
   --channel-hover: var(--interactive-text-hover);
   --channel-selected: var(--interactive-text-active);
